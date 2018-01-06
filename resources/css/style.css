@@ -6,7 +6,6 @@ body {
 h1 {
   font-size: 70px;
   font-weight: bold;
-  <!--color: white;-->
 }
 
 h2 {
@@ -16,18 +15,39 @@ h2 {
 
 h3 {
   font-size: 18px;
-  <!--color: white;-->
 }
 
 h4 {
-
+  font-size: 23px;
+  font-weight: bold;
 }
 
-footer {
-  background-color: dimgray;
-}
-
-p.footer {
-  font-size: 11px;
+a {
   color: white;
+}
+
+p {
+  font-size: 14px;
+}
+
+.flatiron {
+  background-image: url("../images/the-flatiron-building.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+  color: white;
+}
+
+#footer {
+  background-color: dimgray;
+  color: white;
+  text-align: left;
+}
+
+#footer p {
+  font-size: 11px;
+}
+
+#footer a {
+  justify-content: space-between;
 }
